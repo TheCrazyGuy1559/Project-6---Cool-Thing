@@ -1,0 +1,20 @@
+body{
+    background-image: url(rose1.4.gif), url(background1.4.jpeg);
+    background-position: top right, top left;
+    background-repeat: no-repeat, repeat;
+    padding: 20px;
+
+}
+
+#borderImg {
+    border: 10px solid transparent;
+    border-image: url(border1.4.png) 30 round;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+
+}
+#boxShadow {
+    box-shadow: 8px 8px 8px rgb(225, 151, 55);
+    border: radius 20px; ;
+}
